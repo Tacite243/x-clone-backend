@@ -21,9 +21,9 @@
       "text": "President Joe Biden touted a new agreement reached with the European Union to ease Trump-era tariffs on aluminum and steel as a 'major breakthrough' that would serve to both strengthen the US steel industry and combat the global climate crisis.",
       "image": null,
       "data": {
-        "reply": {"amount":57, "state":false},
+        "reply": 57,
         "retweet": 144,
-        "react": 184
+        "react": {"amount":184, "state":false}
       }
     },
     {
@@ -39,9 +39,9 @@
       "text": "Gardening boomed during the pandemic. Six Black writers share how it has helped them re-establish, and reimagine, a connection to cultivation and the land.",
       "image": "/image-3.png",
       "data": {
-        "reply": {"amount":19, "state":false},
+        "reply": 19,
         "retweet": 48,
-        "react": 482
+        "react": {"amount":482, "state":false}
       }
     },
     {
@@ -57,9 +57,9 @@
       "text": "BIG NEWS lol jk still Twitter",
       "image": null,
       "data": {
-        "reply":{"amount":6800, "state":false},
+        "reply":6800,
         "retweet": 36600,
-        "react": 267100
+        "react": {"amount":267100, "state":false}
       }
     },
     {
@@ -75,9 +75,9 @@
       "text": "hello literally everyone",
       "image": null,
       "data": {
-        "reply": {"amount":118700, "state":false},
+        "reply": 118700,
         "retweet": 785400,
-        "react": 3300000
+        "react": {"amount":3300000, "state":false}
       }
     },
     {
@@ -93,9 +93,9 @@
       "text": "hello literally everyone",
       "image": "/image-3.png",
       "data": {
-        "reply": {"amount":118700, "state":false},
+        "reply": 118700,
         "retweet": 785400,
-        "react": 3300000
+        "react": {"amount":3300000, "state":false}
       }
     }
   ]
