@@ -8,7 +8,10 @@ app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, PATCH, OPTIONS')
   next();
 });
+
+
 app.use('/api/tweet', (req, res, next) => {
+  console.log(req.body)
   const tweet = {
     "tweets": [
       {
@@ -126,6 +129,7 @@ app.use('/api/tweet', (req, res, next) => {
   res.status(200).json(tweet)
 });
 
+
 app.use('/api/curentUser', (req, res, next) => {
   const curentUser = {
     "current-user": {
@@ -138,6 +142,7 @@ app.use('/api/curentUser', (req, res, next) => {
   res.status(200).json(curentUser)
   next();
 });
+
 
 app.use('/api/nav', (req, res, next) => {
   const nav = {
@@ -199,6 +204,8 @@ app.use('/api/nav', (req, res, next) => {
   res.status(200).json(nav);
   next()
 });
+
+
 app.use('/api/trends', (req, res, next) => {
   const trends = {
     "trends": [
@@ -219,4 +226,5 @@ app.use('/api/trends', (req, res, next) => {
   res.status(200).json(trends)
   next()
 });
+
 module.exports = app;
